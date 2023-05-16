@@ -1,8 +1,10 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
 body {
-    background-color: #f1f1f1;
+    background-color: #ac9583;
     display: flex;
     justify-content: center;
 }
@@ -11,28 +13,78 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(173, 155, 134);
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
+    text-align: center;
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .menu {
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
+    
 }
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(255, 255, 255);
     min-height: 150px;
+    display: flex;
+    margin: auto;
 }
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+.content a{
+    color: green;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
     min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#contact-form {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 400px;
+}
+
+#contact-form label {
+    display: block;
+    margin: 5px;
+}
+
+.valor{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
